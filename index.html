@@ -11,7 +11,15 @@
    <body>
      <div id="map"></div>
    
-   
+   <from>
+       <p>
+           <input type="button" value="ROADMAP" onclick="changeMapType('roadmap')">
+           <input type="button" value="SATELLITE" onclick="changeMapType('sateilite')">
+           <input type="button" value="HYBRID" onclick="changeMapType('sateilite')">
+           <input tyoe="button" value="TERRAIN" onclick="changeMapType('terrain')">
+       </p>
+   </from>
+       
    <script type="text/javascript">
      var map;
      function initMap() {
